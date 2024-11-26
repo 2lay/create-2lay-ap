@@ -1,5 +1,11 @@
 {
   "name": "create-2lay-app",
+  "author": "2lay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/create-2lay-app"
+  },
+  "license": "GPL-3",
   "version": "0.1.0",
   "private": true,
   "scripts": {
