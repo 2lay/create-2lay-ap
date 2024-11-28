@@ -1,8 +1,8 @@
 
-import { Manrope } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
-const font = Manrope({
+const font = Geist({
     subsets: ["latin"],
     display: "swap",
 });
@@ -15,9 +15,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={font.className}
-            >
-                {children}
+                className={font.className}>
+                    {children}
             </body>
         </html>
     );
